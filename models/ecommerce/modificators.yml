@@ -1,0 +1,5 @@
+modificators:
+  - key: session_source
+    value: youtube_ads
+    modi_key: uplift
+    modificator: 10

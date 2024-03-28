@@ -1,0 +1,54 @@
+entities:
+- name: list
+  activities:
+    - name: viewed
+      init_states:
+        - name: list
+          type: if_not_exist
+      tracked_states:
+        - name: list
+      transitions:
+        - activity: searched
+          entity: list
+          factor: 0.6
+          purge_states:
+            - name: product
+            - name: list_search_term
+        - activity: clicked
+          entity: product
+          factor: 0.4
+        - activity: viewed
+          entity: list
+          factor: 0.2
+          purge_states:
+            - name: product
+            - name: list
+        - activity: leave
+          entity: system
+          factor: 0.5
+    - name: searched
+      init_states:
+        - name: list_search_term
+          type: if_not_exist
+      tracked_states:
+        - name: list
+      transitions:
+        - activity: searched
+          entity: list
+          factor: 0.4
+          purge_states:
+            - name: product
+            - name: list_search_term
+        - activity: clicked
+          entity: product
+          factor: 0.6
+        - activity: viewed
+          entity: list
+          factor: 0.2
+          purge_states:
+            - name: product
+            - name: list
+        - activity: leave
+          entity: system
+          factor: 0.3
+      

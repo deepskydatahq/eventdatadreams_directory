@@ -1,0 +1,112 @@
+entities:
+  - name: asset
+            
+    activities:
+      - name: added
+        init_states:
+          - name: asset
+            type: if_not_exist
+          - name: asset_id
+            type: key_random
+            key: asset_id
+            context: asset
+        tracked_states:
+          - name: asset
+        transitions:
+          - activity: added
+            entity: asset
+            factor: 0.7
+            purge_states:
+              - name: asset
+          - activity: updated
+            entity: asset
+            factor: 0.3
+          - activity: deleted
+            entity: asset
+            factor: 0.1
+          - activity: commented
+            entity: asset
+            factor: 0.1
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: shared
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.05
+      
+      - name: updated
+        tracked_states:
+          - name: asset
+        transitions:
+          - activity: added
+            entity: asset
+            factor: 0.7
+          - activity: updated
+            entity: asset
+            factor: 0.4
+          - activity: deleted
+            entity: asset
+            factor: 0.1
+          - activity: commented
+            entity: asset
+            factor: 0.1
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: shared
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.1
+      
+      - name: deleted
+        tracked_states:
+          - name: asset
+        transitions:
+          - activity: added
+            entity: asset
+            factor: 0.7
+          - activity: updated
+            entity: asset
+            factor: 0.4
+          - activity: deleted
+            entity: asset
+            factor: 0.05
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.1
+      
+      - name: commented
+        tracked_states:
+          - name: asset
+        transitions:
+          - activity: added
+            entity: asset
+            factor: 0.5
+          - activity: updated
+            entity: asset
+            factor: 0.2
+          - activity: deleted
+            entity: asset
+            factor: 0.1
+          - activity: commented
+            entity: asset
+            factor: 0.4
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: shared
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.1
+      
+      

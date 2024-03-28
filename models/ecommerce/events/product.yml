@@ -1,0 +1,150 @@
+entities:
+  - name: product
+            
+    activities:
+      - name: details_viewed
+        init_states:
+          - name: product
+            type: if_not_exist
+            value_type: list_to_key
+            key: products
+        tracked_states:
+          - name: product
+        transitions:
+          - activity: add_to_cart
+            entity: product
+            factor: 0.08
+          - activity: viewed
+            entity: list
+            factor: 0.2
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.1
+            purge_states:
+              - name: product
+          - activity: searched
+            entity: list
+            factor: 0.1
+            purge_states:
+              - name: product
+              - name: list
+          - activity: shared
+            entity: product
+            factor: 0.08
+          - activity: viewed
+            entity: cart
+            factor: 0.08
+            requisites:
+              - name: only_with_cart_items
+                context: cart
+                key: cart_total
+                operator: greater_than
+                value: 0
+          - activity: leave
+            entity: system
+            factor: 0.12
+      - name: clicked
+        init_states:
+          - name: product
+            type: if_not_exist
+            value_type: list_to_key
+            key: products
+        tracked_states:
+          - name: product
+        transitions:
+          - activity: details_viewed
+            entity: product
+            factor: 1
+            
+      - name: shared
+        tracked_states:
+          - name: product
+        transitions:
+          - activity: add_to_cart
+            entity: product
+            factor: 0.1
+          - activity: viewed
+            entity: list
+            factor: 0.2
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.1
+            purge_states:
+              - name: product
+          - activity: searched
+            entity: list
+            factor: 0.1
+            purge_states:
+              - name: product
+              - name: list
+          - activity: viewed
+            entity: cart
+            factor: 0.09
+            requisites:
+              - name: only_with_cart_items
+                context: cart
+                key: cart_total
+                operator: greater_than
+                value: 0
+          - activity: leave
+            entity: system
+            factor: 0.08
+      - name: recommendation_clicked
+        init_states:
+          - name: product
+            type: if_not_exist
+            value_type: list_to_key
+            key: products
+        tracked_states:
+          - name: product
+        transitions:
+          - activity: details_viewed
+            entity: product
+            factor: 1
+      - name: add_to_cart
+        init_states:
+          - name: cart
+            type: load_from_state
+            source_context: product
+            source_key: products
+            context: cart
+            key: cart_products
+            value_type: list
+            load_type: append
+          - name: cart
+            type: calculate
+            formula: 
+              type: count
+              context: cart
+              key: cart_quantity
+              count_context: cart
+              count_key: cart_products
+        tracked_states:
+          - name: cart
+          - name: product    
+
+        transitions:
+          - activity: viewed
+            entity: cart
+            factor: 1
+      - name: bookmarked
+        tracked_states:
+          - name: product
+        transitions:
+          - activity: created
+            entity: account
+            factor: 0.8
+          - activity: details_viewed
+            entity: product
+            factor: 0.2
+            purge_states:
+              - name: product
+      
+            
+      

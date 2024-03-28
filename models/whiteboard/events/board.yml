@@ -1,0 +1,104 @@
+entities:
+  - name: board
+            
+    activities:
+      - name: created
+        init_states:
+          - name: board_id
+            type: key_random
+            key: board_id
+            context: board
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: viewed
+            entity: board
+            factor: 1
+          
+
+      - name: viewed
+        init_states:
+          - name: board_id
+            type: key_random
+            key: board_id
+            context: board
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: added
+            entity: asset
+            factor: 0.7
+          - activity: shared
+            entity: board
+            factor: 0.2
+          - activity: presented
+            entity: board
+            factor: 0.1
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.12
+      
+      - name: shared
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: closed
+            entity: board
+            factor: 0.3
+          - activity: added
+            entity: asset
+            factor: 0.3
+          - activity: leave
+            entity: system
+            factor: 0.5
+
+      - name: presented
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: shared
+            entity: board
+            factor: 0.6
+          - activity: added
+            entity: asset
+            factor: 0.4
+          - activity: closed
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.5
+
+      - name: closed
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: viewed
+            entity: board
+            factor: 0.2
+          - activity: created
+            entity: board
+            factor: 0.2
+          - activity: created
+            entity: board
+            factor: 0.2
+          - activity: deleted
+            entity: board
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.8
+          
+          
+      - name: deleted
+        tracked_states:
+          - name: board
+        transitions:
+          - activity: leave
+            entity: system
+            factor: 1
+
+      

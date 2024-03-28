@@ -1,0 +1,66 @@
+contexts:
+  - name: session
+    key: session
+    type: merge
+    rows: 1000
+    sources:
+      - name: session_browser
+      - name: session_platforms
+      - name: session_utm_campaigns
+      - name: session_utm_sources
+  
+  - name: user
+    key: user
+    type: merge
+    rows: 1000
+    sources:
+      - name: user_location
+  
+  - name: product
+    key: product
+    type: merge
+    rows: 1000
+    sources:
+      - name: ecommerce_products
+  
+  - name: list
+    key: list
+    type: merge
+    rows: 200
+    sources:
+      - name: ecommerce_list_name
+  
+  - name: page
+    key: page_path
+    type: merge
+    rows: 20
+    sources:
+      - name: ecommerce_page_name
+  
+  - name: payment
+    key: payment_type
+    type: merge
+    rows: 10
+    sources:
+      - name: ecommerce_payment_type
+  
+  - name: shipping
+    key: shipping_method
+    type: merge
+    rows: 10
+    sources:
+      - name: ecommerce_shipping_method
+  
+  - name: promo_code
+    key: promo_code
+    type: merge
+    rows: 200
+    sources:
+      - name: ecommerce_promo_code
+  
+  - name: list_search_term
+    key: list_search_term
+    type: merge
+    rows: 200
+    sources:
+      - name: ecommerce_search_term

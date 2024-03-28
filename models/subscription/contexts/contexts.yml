@@ -1,0 +1,14 @@
+contexts:
+  - name: subscription
+    key: subscription
+    type: merge
+    rows: 5000
+    sources:
+      - name: subscription
+  
+  - name: user
+    key: user
+    type: merge
+    rows: 1000
+    sources:
+      - name: user_location

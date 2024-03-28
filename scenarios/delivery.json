@@ -1,0 +1,33 @@
+{
+    "name": "delivery",
+    "persist_users": "true",
+    "use_bigquery_for_users": "true",
+    "bq_user_project": "deepskydata",
+    "bq_user_dataset": "edddata",
+    "user_table": "delivery_01",
+    "randomizer": 0.1,
+    "models_path": "models",
+    "schema_folder": "delivery",
+    "growth": "1.1",
+    "sessions_per_day": 20,
+    "new_user_probability": 0.5,
+    "destinations": [
+      { 
+        "name": "ga4",
+        "type": "ga4",
+        "token": "",
+        "api_secret": ""
+      }
+    ],
+    "entries": [
+      {
+        "entity": "search",
+        "activity": "submitted",
+        "propability": 1
+      }
+    ],
+    "time_between_events_s": {
+      "min": "3",
+      "max": "30"
+    }
+  }

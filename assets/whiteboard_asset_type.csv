@@ -1,0 +1,32 @@
+asset_type, size, library
+text, s, text
+text, m, text
+text, l, text
+text, xl, text
+text, xxl, text
+note, s, sticky_note
+note, m, sticky_note
+note, l, sticky_note
+note, xl, sticky_note
+square, custom, shape
+circle, custom, shape
+triangle, custom, shape
+rectangle, custom, shape
+comment, custom, shape
+star, custom, shape
+arrow, custom, shape
+card, custom, card
+mind map, custom, mind_map
+connection line, custom, connection
+arrow, custom, connection
+comment, custom, comment
+frame, custom, frame
+frame, a4, frame
+frame, letter, frame
+frame, 16:9, frame
+frame, 4:3, frame
+frame, 1:1, frame
+frame, phone, frame
+frame, tablet, frame
+frame, browser, frame
+codeblock, custom, code_block

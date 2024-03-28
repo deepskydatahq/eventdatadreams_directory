@@ -1,0 +1,32 @@
+{
+    "name": "delivery",
+    "end_date": "2024-03-06",
+    "days_going_back": 10,
+    "persist_users": "true",
+    "use_bigquery_for_users": "false",
+    "user_table": "delivery_01",
+    "randomizer": 0.1,
+    "models_path": "models",
+    "schema_folder": "delivery",
+    "growth": "1.1",
+    "sessions_per_day": 20,
+    "new_user_probability": 0.5,
+    "destinations": [
+        {
+            "name": "json",
+            "type": "jsonfile",
+            "file_name": "delivery.json"
+          }
+    ],
+    "entries": [
+      {
+        "entity": "search",
+        "activity": "submitted",
+        "propability": 1
+      }
+    ],
+    "time_between_events_s": {
+      "min": "3",
+      "max": "30"
+    }
+  }

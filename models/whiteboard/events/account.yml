@@ -1,0 +1,19 @@
+entities:
+  - name: account
+            
+    activities:
+      - name: created
+        init_states:
+          - name: account_id
+            type: key_random
+            key: account_id
+            context: account
+        tracked_states:
+          - name: account
+        transitions:
+          - activity: created
+            entity: board
+            factor: 0.7
+          - activity: leave
+            entity: system
+            factor: 0.05

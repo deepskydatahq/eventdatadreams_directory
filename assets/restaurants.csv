@@ -1,0 +1,125 @@
+restaurant_name, restaurant_kitchen, restaurant_price_category, restaurant_avg_rating, restaurant_num_ratings
+The Spice Garden,Indian Cuisine,$$,4.3,256
+Bella Italia,Italian Cuisine,$$$,4.6,421
+Sizzling Wok,Chinese Cuisine,$$,4.1,189
+Le Petit Bistro,French Cuisine,$$$,4.8,532
+Texan Smokehouse,BBQ Cuisine,$$,4.4,305
+Sushi Sensation,Japanese Cuisine,$$$,4.5,412
+Mediterranean Delight,Mediterranean Cuisine,$$,4.2,273
+Thai Spice,Thai Cuisine,$$,4.0,198
+Gusto Mexicano,Mexican Cuisine,$$,4.3,345
+The Rustic Fork,American Cuisine,$$$,4.7,487
+Pasta Palace,Italian Cuisine,$$,4.4,389
+Dragon Palace,Chinese Cuisine,$$,4.2,267
+La Cantina,Mexican Cuisine,$$$,4.6,521
+Tokyo Teppanyaki,Japanese Cuisine,$$$,4.7,463
+Bistro du Sud,French Cuisine,$$$,4.8,512
+Bombay Bites,Indian Cuisine,$$,4.3,326
+Bella Luna,Italian Cuisine,$$$,4.5,438
+Mandarin Garden,Chinese Cuisine,$$,4.0,254
+Greek Taverna,Mediterranean Cuisine,$$,4.1,297
+Spice of Siam,Thai Cuisine,$$,4.2,371
+El Ranchero,Mexican Cuisine,$$,4.4,405
+The Grilled Platter,American Cuisine,$$$,4.6,542
+Pizza Paradise,Italian Cuisine,$$,4.3,389
+Golden Dragon,Chinese Cuisine,$$,4.1,277
+Mamma Mia!,Italian Cuisine,$$$,4.7,521
+Osaka Oasis,Japanese Cuisine,$$$,4.5,469
+La Brasserie,French Cuisine,$$$,4.8,543
+Punjab Palace,Indian Cuisine,$$,4.2,331
+Napoli Nights,Italian Cuisine,$$$,4.6,457
+Panda Garden,Chinese Cuisine,$$,4.0,288
+Opa! Taverna,Mediterranean Cuisine,$$,4.2,312
+Bangkok Bliss,Thai Cuisine,$$,4.3,391
+El Sol,Mexican Cuisine,$$,4.5,419
+Liberty Grill,American Cuisine,$$$,4.8,554
+Bella Napoli,Italian Cuisine,$$,4.4,403
+Fuji Fusion,Japanese Cuisine,$$$,4.7,488
+La Petite Maison,French Cuisine,$$$,4.9,567
+Kashmir Kitchen,Indian Cuisine,$$,4.3,345
+Roma Ristorante,Italian Cuisine,$$$,4.6,498
+Great Wall,Chinese Cuisine,$$,4.0,299
+Santorini Sunset,Mediterranean Cuisine,$$,4.1,324
+Phuket Pearl,Thai Cuisine,$$,4.2,401
+Tacos Tijuana,Mexican Cuisine,$$,4.4,433
+City Tavern,American Cuisine,$$$,4.7,567
+Trattoria Toscana,Italian Cuisine,$$,4.5,419
+Zen Zen,Japanese Cuisine,$$$,4.8,512
+Le Château,French Cuisine,$$$,4.9,591
+Taj Mahal,Indian Cuisine,$$,4.4,378
+Venice Vibes,Italian Cuisine,$$$,4.7,532
+Dragonfly Delight,Chinese Cuisine,$$,4.1,312
+Aegean Breeze,Mediterranean Cuisine,$$,4.3,342
+Saigon Street,Vietnamese Cuisine,$$,4.2,391
+Tijuana Treats,Mexican Cuisine,$$,4.5,449
+Capital Grille,American Cuisine,$$$,4.8,587
+Amalfi Coast,Italian Cuisine,$$,4.4,421
+Mount Fuji,Japanese Cuisine,$$$,4.7,511
+Belle Epoque,French Cuisine,$$$,4.8,543
+Maharaja Palace,Indian Cuisine,$$,4.3,356
+Trastevere Trattoria,Italian Cuisine,$$$,4.6,498
+Golden Phoenix,Chinese Cuisine,$$,4.2,329
+Greek Isles,Mediterranean Cuisine,$$,4.3,362
+Bangkok Bistro,Thai Cuisine,$$,4.4,421
+Burrito Bueno,Mexican Cuisine,$$,4.6,487
+Liberty Tavern,American Cuisine,$$$,4.8,598
+Toscana Trattoria,Italian Cuisine,$$,4.5
+Café Parisien,French Cuisine,$$,4.5,367
+Ristorante Roma,Italian Cuisine,$$$,4.7,512
+Peking Palace,Chinese Cuisine,$$,4.3,298
+Taj Tandoor,Indian Cuisine,$$,4.1,246
+La Dolce Vita,Italian Cuisine,$$$,4.8,543
+Zen Sushi Bar,Japanese Cuisine,$$$,4.6,479
+El Mariachi,Mexican Cuisine,$$,4.4,413
+Sahara Oasis,Mediterranean Cuisine,$$,4.2,331
+Bangkok Spice,Thai Cuisine,$$,4.0,219
+Big Smoke Grill,American Cuisine,$$$,4.9,601
+Trattoria Venezia,Italian Cuisine,$$,4.6,482
+Silk Road,Chinese Cuisine,$$,4.2,287
+Rajasthan Royals,Indian Cuisine,$$,4.3,365
+Casa de Pasta,Italian Cuisine,$$$,4.7,529
+Koi Pond,Japanese Cuisine,$$$,4.5,457
+Le Petit Café,French Cuisine,$$$,4.8,512
+Aztec Flavors,Mexican Cuisine,$$,4.5,432
+Olive Grove,Mediterranean Cuisine,$$,4.1,296
+Chili Thai,Thai Cuisine,$$,4.3,377
+Hometown Diner,American Cuisine,$$$,4.7,543
+Trattoria Firenze,Italian Cuisine,$$,4.4,398
+Golden Pagoda,Chinese Cuisine,$$,4.1,259
+Bollywood Nights,Indian Cuisine,$$,4.2,311
+Ciao Bella,Italian Cuisine,$$$,4.7,512
+Sakura Garden,Japanese Cuisine,$$$,4.6,491
+L'Étoile du Nord,French Cuisine,$$$,4.9,567
+Cancun Cantina,Mexican Cuisine,$$,4.4,405
+Med Coast Café,Mediterranean Cuisine,$$,4.0,274
+Siam Orchid,Thai Cuisine,$$,4.2,389
+Brooklyn BBQ,American Cuisine,$$$,4.8,578
+Trattoria Verona,Italian Cuisine,$$,4.5,423
+Red Lantern,Chinese Cuisine,$$,4.0,269
+Delhi Delights,Indian Cuisine,$$,4.1,298
+Villa Toscana,Italian Cuisine,$$$,4.6,498
+Ninja Sushi,Japanese Cuisine,$$$,4.7,532
+Le Petit Poisson,French Cuisine,$$$,4.8,543
+Taqueria Guadalajara,Mexican Cuisine,$$,4.5,411
+Olive Tree,Mediterranean Cuisine,$$,4.1,288
+Bangkok Bite,Thai Cuisine,$$,4.3,365
+City Diner,American Cuisine,$$$,4.7,521
+Trattoria Milano,Italian Cuisine,$$,4.4,398
+Imperial Palace,Chinese Cuisine,$$,4.0,279
+Bombay Dreams,Indian Cuisine,$$,4.2,315
+Dolce Vita,Italian Cuisine,$$$,4.7,532
+Kiku Sushi,Japanese Cuisine,$$$,4.6,487
+L'Auberge,French Cuisine,$$$,4.9,598
+Cielito Lindo,Mexican Cuisine,$$,4.4,405
+Café Riviera,Mediterranean Cuisine,$$,4.0,276
+Thai Orchid,Thai Cuisine,$$,4.2,385
+Southern Comfort,American Cuisine,$$$,4.8,587
+Trattoria Amore,Italian Cuisine,$$,4.5,432
+Dynasty Garden,Chinese Cuisine,$$,4.0,281
+Spice Route,Indian Cuisine,$$,4.2,319
+La Vita Bella,Italian Cuisine,$$$,4.6,498
+Hanabi,Japanese Cuisine,$$$,4.7,542
+La Petite Provence,French Cuisine,$$$,4.8,521
+El Mariachi,Mexican Cuisine,$$,4.4,409
+Mediterranean Café,Mediterranean Cuisine,$$,4.1,284
+Sukhothai,Thai Cuisine,$$,4.3,377

@@ -1,0 +1,62 @@
+entities:
+  - name: meal
+            
+    activities:
+      - name: clicked
+        init_states:
+          - name: meal
+            type: if_not_exist
+        tracked_states:
+          - name: meal
+        transitions:
+          - activity: viewed
+            entity: meal
+            factor: 0.9
+          - activity: leave
+            entity: system
+            factor: 0.1
+      
+      - name: viewed
+        init_states:
+          - name: meal
+            type: if_not_exist
+        tracked_states:
+          - name: meal
+        twin_activities:
+          - entity: page
+            activity: viewed
+            init_states:
+              - name: pagepath
+                type: set_key
+                context: page
+                key: page_path
+                value: /meal/details
+            tracked_states:
+              - name: page
+              - name: meal
+        transitions:
+          - activity: clicked
+            entity: meal
+            factor: 0.6
+            purge_states:
+              - name: meal
+          - activity: submitted
+            entity: order
+            factor: 0.2
+          - activity: submitted
+            entity: search
+            factor: 0.3
+          - activity: leave
+            entity: system
+            factor: 0.2
+      
+      - name: rated
+        tracked_states:
+          - name: meal
+        transitions:
+          - activity: rated
+            entity: restaurant
+            factor: 0.7
+          - activity: leave
+            entity: system
+            factor: 0.2

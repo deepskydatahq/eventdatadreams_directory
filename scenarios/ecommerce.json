@@ -1,0 +1,35 @@
+{
+    "name": "ecommerce",
+    "end_date": "2024-01-06",
+    "days_going_back": 2,
+    "persist_users": "true",
+    "user_table": "ecomm_01",
+    "randomizer": 0.1,
+    "models_path": "models",
+    "schema_folder": "ecommerce",
+    "growth": "1.1",
+    "sessions_per_day": 10,
+    "new_user_probability": 0.5,
+    "destinations": [
+      {
+        "name": "json",
+        "type": "jsonfile",
+        "file_name": "test.json"
+      }
+    ],
+    "entries": [
+      {
+        "entity": "product",
+        "activity": "details_viewed",
+        "propability": 0.6
+      },
+      {
+        "entity": "list",
+        "activity": "viewed"
+      }
+    ],
+    "time_between_events_s": {
+      "min": "3",
+      "max": "30"
+    }
+  }

@@ -1,0 +1,120 @@
+os, os_version, device_mode
+iOS, iOS 14.1, iPhone 11
+iOS, iOS 14.2, iPhone 12
+iOS, iOS 14.3, iPhone 12 Pro
+iOS, iOS 14.4, iPhone 12 Mini
+iOS, iOS 14.5, iPhone SE (2nd)
+iOS, iOS 15.0, iPhone 13
+Android, Android 10, Samsung Galaxy S10
+Android, Android 11, Samsung Galaxy S20
+Android, Android 12, Google Pixel 4
+Android, Android 11, Google Pixel 5
+Windows, Windows 10, Surface Pro 7
+Windows, Windows 11, Surface Laptop 4
+macOS, macOS Catalina, MacBook Pro 13"
+macOS, macOS Big Sur, MacBook Air
+macOS, macOS Monterey, MacBook Pro 16"
+Android, Android 10, OnePlus 8
+Android, Android 11, OnePlus 9
+Android, Android 12, OnePlus 9 Pro
+iOS, iOS 14.6, iPad Pro 12.9
+iOS, iOS 14.7, iPad Air 4th Gen
+Android, Android 9, Samsung Galaxy S9
+Android, Android 8, LG G7 ThinQ
+Windows, Windows 10, Dell XPS 13
+macOS, macOS High Sierra, MacBook Pro 15"
+Android, Android 7, HTC U11
+Android, Android 6, Moto G4
+iOS, iOS 13.7, iPhone X
+iOS, iOS 13.6, iPhone 8
+Windows, Windows 8.1, Lenovo Yoga 920
+Android, Android 10, Samsung Galaxy S10
+Android, Android 11, Samsung Galaxy S20
+Android, Android 12, Samsung Galaxy S21,
+Android, Android 11, Samsung Galaxy S20 Ultra
+Android, Android 10, Samsung Galaxy S10e
+Android, Android 9, Samsung Galaxy S9
+Android, Android 9, Samsung Galaxy S9+
+Android, Android 8, Samsung Galaxy S8
+Android, Android 8, Samsung Galaxy S8+
+Android, Android 7, Samsung Galaxy S7
+Android, Android 7, Samsung Galaxy S7 Edge
+Android, Android 10, Samsung Galaxy Note 10
+Android, Android 11, Samsung Galaxy Note 20
+Android, Android 12, Samsung Galaxy Note 21,
+Android, Android 11, Samsung Galaxy Note 20 Ultra
+Android, Android 10, Samsung Galaxy Note 10+
+Android, Android 9, Samsung Galaxy Note 9
+Android, Android 8, Samsung Galaxy Note 8
+Android, Android 10, Samsung Galaxy A50
+Android, Android 11, Samsung Galaxy A51
+Android, Android 12, Samsung Galaxy A52
+Android, Android 11, Samsung Galaxy A71
+Android, Android 10, Samsung Galaxy A70
+Android, Android 9, Samsung Galaxy A30
+Android, Android 8, Samsung Galaxy J7
+Android, Android 7, Samsung Galaxy J5
+Android, Android 10, Samsung Galaxy Z Fold 2
+Android, Android 11, Samsung Galaxy Z Flip
+Android, Android 12, Samsung Galaxy Z Fold 3,
+Android, Android 11, Samsung Galaxy Tab S7
+Windows, Windows 10, Dell XPS 13
+Windows, Windows 11, Dell XPS 15,
+Windows, Windows 10, Dell Inspiron 15 3000
+Windows, Windows 11, Dell Inspiron 14 5000
+Windows, Windows 10, Dell Latitude 7410
+Windows, Windows 11, Dell Precision 7550
+Windows, Windows 10, Lenovo ThinkPad X1 Carbon
+Windows, Windows 11, Lenovo ThinkPad T14s,
+Windows, Windows 10, Lenovo Yoga C940
+Windows, Windows 11, Lenovo IdeaPad Flex 5
+Windows, Windows 10, Lenovo Legion Y540
+Windows, Windows 11, Lenovo ThinkBook 14
+Windows, Windows 10, Asus ZenBook 13
+Windows, Windows 11, Asus VivoBook S15
+Windows, Windows 10, Asus ROG Zephyrus G14
+Windows, Windows 11, Asus TUF Gaming A15,
+Windows, Windows 10, Asus ZenBook Duo
+Windows, Windows 11, Asus VivoBook 14
+Windows, Windows 10, Lenovo ThinkPad L13 Yoga
+Windows, Windows 11, Dell Alienware m15 R4,
+Windows, Windows 10, Asus ROG Strix Scar 15
+Windows, Windows 11, Lenovo IdeaPad 3
+Windows, Windows 10, Dell G5 15
+Windows, Windows 11, Asus ZenBook Flip 13
+Windows, Windows 10, Lenovo ThinkPad P1
+Windows, Windows 11, Dell Inspiron 13 7000
+Windows, Windows 10, Asus VivoBook Flip 14
+Windows, Windows 11, Lenovo Legion 5 Pro,
+Windows, Windows 10, Dell Vostro 15 7500
+Windows, Windows 11, Asus ROG Flow X13
+macOS, macOS Catalina, MacBook Air (Retina 13-inch 2019)
+macOS, macOS Big Sur, MacBook Air (M1 2020),
+macOS, macOS Monterey, MacBook Air (Retina 13-inch 2021)
+macOS, macOS Catalina, MacBook Pro (13-inch 2019)
+macOS, macOS Big Sur, MacBook Pro (M1 13-inch 2020),
+macOS, macOS Monterey, MacBook Pro (14-inch 2021)
+macOS, macOS Catalina, MacBook Pro (16-inch 2019)
+macOS, macOS Big Sur, MacBook Pro (16-inch 2020)
+macOS, macOS Monterey, MacBook Pro (16-inch 2021),
+macOS, macOS Catalina, iMac (21.5-inch 2019)
+macOS, macOS Big Sur, iMac (24-inch M1 2020),
+macOS, macOS Monterey, iMac (24-inch M1 2021)
+macOS, macOS Catalina, iMac (27-inch 2019)
+macOS, macOS Big Sur, iMac (27-inch 2020)
+macOS, macOS Monterey, iMac Pro (2021),
+macOS, macOS Catalina, MacBook Pro (13-inch 2019)
+macOS, macOS Big Sur, MacBook Air (Retina 13-inch Early 2020)
+macOS, macOS Monterey, MacBook Pro (13-inch M1 2020),
+macOS, macOS Catalina, iMac Pro (2019)
+macOS, macOS Big Sur, iMac (2020)
+macOS, macOS Monterey, MacBook Air (Retina 13-inch Mid 2021)
+macOS, macOS Catalina, MacBook Pro (15-inch 2019)
+macOS, macOS Big Sur, MacBook Pro (13-inch Mid 2020)
+macOS, macOS Monterey, iMac (Retina 4.5K 24-inch 2021)
+macOS, macOS Catalina, MacBook Air (Retina 13-inch Late 2019)
+macOS, macOS Big Sur, MacBook Pro (16-inch Late 2020)
+macOS, macOS Monterey, iMac (Retina 5K 27-inch Early 2021)
+macOS, macOS Catalina, MacBook Pro (13-inch Early 2019)
+macOS, macOS Big Sur, iMac (21.5-inch Late 2020)
+macOS, macOS Monterey, MacBook Pro (14-inch Late 2021),

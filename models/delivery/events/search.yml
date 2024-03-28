@@ -1,0 +1,46 @@
+entities:
+  - name: search
+            
+    activities:
+      - name: submitted
+        init_states:
+          - name: search
+            type: if_not_exist
+        tracked_states:
+          - name: search
+        tracked_states:
+          - name: search
+        transitions:
+          - activity: clicked
+            entity: restaurant
+            factor: 0.7
+          - activity: submitted
+            entity: search
+            factor: 0.3
+            purge_states:
+              - name: search
+          - activity: clicked
+            entity: meal
+            factor: 0.3 
+          - activity: leave
+            entity: system
+            factor: 0.2
+      
+      - name: confirmed
+        init_states:
+          - name: order_id
+            type: key_random
+            key: order_id
+            context: order
+        tracked_states:
+          - name: meal
+          - name: restaurant
+          - name: order
+        transitions:
+          - activity: rated
+            entity: meal
+            factor: 0.6
+          - activity: leave
+            entity: system
+            factor: 0.4
+      

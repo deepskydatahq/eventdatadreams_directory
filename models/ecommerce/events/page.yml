@@ -1,0 +1,38 @@
+entities:
+- name: page
+  
+
+  activities:
+    - name: viewed
+      init_states:
+        - name: page_path
+          type: if_not_exist
+      tracked_states:
+        - name: page_path
+      transitions:
+        - activity: searched
+          entity: list
+          factor: 0.4
+          purge_states:
+            - name: list
+            - name: list_search_term
+        - activity: details_viewed
+          entity: product
+          factor: 0.3
+          purge_states:
+            - name: product
+        - activity: viewed
+          entity: list
+          factor: 0.3
+          purge_states:
+            - name: list
+            - name: list_search_term
+        - activity: viewed
+          entity: page  
+          factor: 0.05
+          purge_states:
+            - name: page_path
+        
+        - activity: leave
+          entity: system
+          factor: 0.4

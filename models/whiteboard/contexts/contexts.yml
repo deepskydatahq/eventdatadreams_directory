@@ -1,0 +1,26 @@
+contexts:
+  - name: session
+    key: session
+    type: merge
+    rows: 1000
+    sources:
+      - name: session_browser
+      - name: session_platforms
+      - name: session_utm_campaigns
+      - name: session_utm_sources
+  
+  - name: user
+    key: user
+    type: merge
+    rows: 1000
+    sources:
+      - name: user_location
+  
+  - name: asset
+    key: asset
+    type: merge
+    rows: 5000
+    sources:
+      - name: whiteboard_asset_type
+  
+  

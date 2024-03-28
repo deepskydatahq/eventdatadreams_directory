@@ -1,0 +1,286 @@
+city, state, country, continent
+New York, New York, USA, North America
+Los Angeles, California, USA, North America
+Chicago, Illinois, USA, North Americ
+Houston, Texas, USA, North Americ
+Phoenix, Arizona, USA, North Americ
+Philadelphia, Pennsylvania, USA, North Americ
+San Antonio, Texas, USA, North Americ
+San Diego, California, USA, North Americ
+Dallas, Texas, USA, North Americ
+San Jose, California, USA, North Americ
+Austin, Texas, USA, North Americ
+Jacksonville, Florida, USA, North Americ
+Fort Worth, Texas, USA, North Americ
+Columbus, Ohio, USA, North Americ
+San Francisco, California, USA, North Americ
+Charlotte, North Carolina, USA, North Americ
+Indianapolis, Indiana, USA, North Americ
+Seattle, Washington, USA, North Americ
+Denver, Colorado, USA, North Americ
+Washington, D.C., USA, North America
+Boston, Massachusetts, USA, North Americ
+El Paso, Texas, USA, North Americ
+Detroit, Michigan, USA, North Americ
+Nashville, Tennessee, USA, North Americ
+Portland, Oregon, USA, North Americ
+Memphis, Tennessee, USA, North Americ
+Oklahoma City, Oklahoma, USA, North Americ
+Las Vegas, Nevada, USA, North Americ
+Louisville, Kentucky, USA, North Americ
+Baltimore, Maryland, USA, North Americ
+Albuquerque, New Mexico, USA, North Americ
+Tucson, Arizona, USA, North Americ
+Fresno, California, USA, North Americ
+Mesa, Arizona, USA, North Americ
+Sacramento, California, USA, North Americ
+Atlanta, Georgia, USA, North Americ
+Kansas City, Missouri, USA, North Americ
+Colorado Springs, Colorado, USA, North Americ
+Omaha, Nebraska, USA, North Americ
+Raleigh, North Carolina, USA, North Americ
+Miami, Florida, USA, North Americ
+Long Beach, California, USA, North Americ
+Virginia Beach, Virginia, USA, North Americ
+Oakland, California, USA, North Americ
+Minneapolis, Minnesota, USA, North Americ
+Tulsa, Oklahoma, USA, North Americ
+Arlington, Texas, USA, North Americ
+Tampa, Florida, USA, North Americ
+New Orleans, Louisiana, USA, North Americ
+Wichita, Kansas, USA, North Americ
+Toronto, Ontario, Canada, North America
+Montreal, Quebec, Canada, North America
+Vancouver, British Columbia, Canada, North Americ
+Calgary, Alberta, Canada, North Americ
+Edmonton, Alberta, Canada, North Americ
+Ottawa, Ontario, Canada, North Americ
+Quebec City, Quebec, Canada, North Americ
+Winnipeg, Manitoba, Canada, North Americ
+Hamilton, Ontario, Canada, North Americ
+Kitchener, Ontario, Canada, North Americ
+London, Ontario, Canada, North Americ
+Victoria, British Columbia, Canada, North Americ
+Halifax, Nova Scotia, Canada, North Americ
+Oshawa, Ontario, Canada, North Americ
+Windsor, Ontario, Canada, North Americ
+Saskatoon, Saskatchewan, Canada, North Americ
+Regina, Saskatchewan, Canada, North Americ
+Sherbrooke, Quebec, Canada, North Americ
+St. John's, Newfoundland and Labrador, Canada, North Americ
+Barrie, Ontario, Canada, North Americ
+Kelowna, British Columbia, Canada, North Americ
+Abbotsford, British Columbia, Canada, North Americ
+Sudbury, Ontario, Canada, North Americ
+Kingston, Ontario, Canada, North Americ
+Saguenay, Quebec, Canada, North Americ
+Trois-Rivières, Quebec, Canada, North Americ
+Guelph, Ontario, Canada, North Americ
+Moncton, New Brunswick, Canada, North Americ
+Brantford, Ontario, Canada, North Americ
+Saint John, New Brunswick, Canada, North Americ
+Thunder Bay, Ontario, Canada, North Americ
+Lethbridge, Alberta, Canada, North Americ
+Nanaimo, British Columbia, Canada, North Americ
+Kamloops, British Columbia, Canada, North Americ
+Belleville, Ontario, Canada, North Americ
+Fredericton, New Brunswick, Canada, North Americ
+Chilliwack, British Columbia, Canada, North Americ
+Red Deer, Alberta, Canada, North Americ
+Sarnia, Ontario, Canada, North Americ
+Peterborough, Ontario, Canada, North Americ
+London, Greater London, UK, Europe
+Birmingham, West Midlands, UK, Europ
+Manchester, Greater Manchester, UK, Europ
+Glasgow, Scotland, UK, Europ
+Liverpool, Merseyside, UK, Europ
+Edinburgh, Scotland, UK, Europ
+Bristol, Bristol, UK, Europ
+Leeds, West Yorkshire, UK, Europ
+Sheffield, South Yorkshire, UK, Europ
+Newcastle, Tyne and Wear, UK, Europ
+Cardiff, Wales, UK, Europ
+Belfast, Northern Ireland, UK, Europ
+Nottingham, Nottinghamshire, UK, Europ
+Southampton, Hampshire, UK, Europ
+Leicester, Leicestershire, UK, Europ
+Brighton, East Sussex, UK, Europ
+Portsmouth, Hampshire, UK, Europ
+Plymouth, Devon, UK, Europ
+Norwich, Norfolk, UK, Europ
+Swansea, Wales, UK, Europ
+York, North Yorkshire, UK, Europ
+Oxford, Oxfordshire, UK, Europ
+Cambridge, Cambridgeshire, UK, Europ
+Aberdeen, Scotland, UK, Europ
+Coventry, West Midlands, UK, Europ
+Dundee, Scotland, UK, Europ
+Wolverhampton, West Midlands, UK, Europ
+Exeter, Devon, UK, Europ
+Stoke-on-Trent, Staffordshire, UK, Europ
+Derby, Derbyshire, UK, Europ
+Reading, Berkshire, UK, Europ
+Bath, Somerset, UK, Europ
+Inverness, Scotland, UK, Europ
+Lancaster, Lancashire, UK, Europ
+Durham, County Durham, UK, Europ
+Canterbury, Kent, UK, Europ
+Gloucester, Gloucestershire, UK, Europ
+Stirling, Scotland, UK, Europ
+Lichfield, Staffordshire, UK, Europ
+Worcester, Worcestershire, UK, Europ
+Paris, Île-de-France, France, Europe
+Marseille, Provence-Alpes-Côte d'Azur, France, Europ
+Lyon, Auvergne-Rhône-Alpes, France, Europ
+Toulouse, Occitanie, France, Europ
+Nice, Provence-Alpes-Côte d'Azur, France, Europ
+Nantes, Pays de la Loire, France, Europ
+Strasbourg, Grand Est, France, Europ
+Montpellier, Occitanie, France, Europ
+Bordeaux, Nouvelle-Aquitaine, France, Europ
+Lille, Hauts-de-France, France, Europ
+Rennes, Brittany, France, Europ
+Reims, Grand Est, France, Europ
+Clermont-Ferrand, Auvergne-Rhône-Alpes, France, Europ
+Grenoble, Auvergne-Rhône-Alpes, France, Europ
+Dijon, Bourgogne-Franche-Comté, France, Europ
+Angers, Pays de la Loire, France, Europ
+Nîmes, Occitanie, France, Europ
+Villeurbanne, Auvergne-Rhône-Alpes, France, Europ
+La Rochelle, Nouvelle-Aquitaine, France, Europ
+Brest, Brittany, France, Europ
+Le Havre, Normandy, France, Europ
+Cannes, Provence-Alpes-Côte d'Azur, France, Europ
+Rouen, Normandy, France, Europ
+Nancy, Grand Est, France, Europ
+Tours, Centre-Val de Loire, France, Europ
+Orléans, Centre-Val de Loire, France, Europ
+Metz, Grand Est, France, Europ
+Limoges, Nouvelle-Aquitaine, France, Europ
+Amiens, Hauts-de-France, France, Europ
+Perpignan, Occitanie, France, Europ
+Besançon, Bourgogne-Franche-Comté, France, Europ
+Dunkirk, Hauts-de-France, France, Europ
+Poitiers, Nouvelle-Aquitaine, France, Europ
+Aix-en-Provence, Provence-Alpes-Côte d'Azur, France, Europ
+Toulon, Provence-Alpes-Côte d'Azur, France, Europ
+Berlin, Berlin, Germany, Europe
+Hamburg, Hamburg, Germany, Europ
+Munich, Bavaria, Germany, Europ
+Cologne, North Rhine-Westphalia, Germany, Europ
+Frankfurt, Hesse, Germany, Europ
+Stuttgart, Baden-Württemberg, Germany, Europ
+Düsseldorf, North Rhine-Westphalia, Germany, Europ
+Dortmund, North Rhine-Westphalia, Germany, Europ
+Essen, North Rhine-Westphalia, Germany, Europ
+Leipzig, Saxony, Germany, Europ
+Bremen, Bremen, Germany, Europ
+Dresden, Saxony, Germany, Europ
+Hanover, Lower Saxony, Germany, Europ
+Nuremberg, Bavaria, Germany, Europ
+Duisburg, North Rhine-Westphalia, Germany, Europ
+Bochum, North Rhine-Westphalia, Germany, Europ
+Wuppertal, North Rhine-Westphalia, Germany, Europ
+Bielefeld, North Rhine-Westphalia, Germany, Europ
+Bonn, North Rhine-Westphalia, Germany, Europ
+Münster, North Rhine-Westphalia, Germany, Europ
+Karlsruhe, Baden-Württemberg, Germany, Europ
+Mannheim, Baden-Württemberg, Germany, Europ
+Augsburg, Bavaria, Germany, Europ
+Wiesbaden, Hesse, Germany, Europ
+Gelsenkirchen, North Rhine-Westphalia, Germany, Europ
+Mönchengladbach, North Rhine-Westphalia, Germany, Europ
+Braunschweig, Lower Saxony, Germany, Europ
+Kiel, Schleswig-Holstein, Germany, Europ
+Aachen, North Rhine-Westphalia, Germany, Europ
+Chemnitz, Saxony, Germany, Europ
+Rome, Lazio, Italy, Europe
+Milan, Lombardy, Italy, Europ
+Naples, Campania, Italy, Europ
+Turin, Piedmont, Italy, Europ
+Palermo, Sicily, Italy, Europ
+Genoa, Liguria, Italy, Europ
+Bologna, Emilia-Romagna, Italy, Europ
+Florence, Tuscany, Italy, Europ
+Bari, Apulia, Italy, Europ
+Catania, Sicily, Italy, Europ
+Venice, Veneto, Italy, Europ
+Verona, Veneto, Italy, Europ
+Messina, Sicily, Italy, Europ
+Padua, Veneto, Italy, Europ
+Trieste, Friuli-Venezia Giulia, Italy, Europ
+Brescia, Lombardy, Italy, Europ
+Taranto, Apulia, Italy, Europ
+Parma, Emilia-Romagna, Italy, Europ
+Prato, Tuscany, Italy, Europ
+Modena, Emilia-Romagna, Italy, Europ
+Reggio Calabria, Calabria, Italy, Europ
+Reggio Emilia, Emilia-Romagna, Italy, Europ
+Perugia, Umbria, Italy, Europ
+Ravenna, Emilia-Romagna, Italy, Europ
+Livorno, Tuscany, Italy, Europ
+Cagliari, Sardinia, Italy, Europ
+Foggia, Apulia, Italy, Europ
+Rimini, Emilia-Romagna, Italy, Europ
+Salerno, Campania, Italy, Europ
+Ferrara, Emilia-Romagna, Italy, Europ
+Copenhagen, Capital Region, Denmark, Europe
+Aarhus, Central Denmark Region, Denmark, Europ
+Odense, Southern Denmark, Denmark, Europ
+Aalborg, North Denmark Region, Denmark, Europ
+Esbjerg, Southern Denmark, Denmark, Europ
+Randers, Central Denmark Region, Denmark, Europ
+Kolding, Southern Denmark, Denmark, Europ
+Horsens, Central Denmark Region, Denmark, Europ
+Vejle, Southern Denmark, Denmark, Europ
+Roskilde, Zealand, Denmark, Europ
+Herning, Central Denmark Region, Denmark, Europ
+Helsingør, Capital Region, Denmark, Europ
+Silkeborg, Central Denmark Region, Denmark, Europ
+Næstved, Zealand, Denmark, Europ
+Fredericia, Southern Denmark, Denmark, Europ
+Viborg, Central Denmark Region, Denmark, Europ
+Køge, Zealand, Denmark, Europ
+Holstebro, Central Denmark Region, Denmark, Europ
+Taastrup, Capital Region, Denmark, Europ
+Slagelse, Zealand, Denmark, Europ
+Hillerød, Capital Region, Denmark, Europ
+Albertslund, Capital Region, Denmark, Europ
+Sønderborg, Southern Denmark, Denmark, Europ
+Svendborg, Southern Denmark, Denmark, Europ
+Herlev, Capital Region, Denmark, Europ
+Holbæk, Zealand, Denmark, Europ
+Hjørring, North Denmark Region, Denmark, Europ
+Frederikshavn, North Denmark Region, Denmark, Europ
+Glostrup, Capital Region, Denmark, Europ
+Haderslev, Southern Denmark, Denmark, Europ
+Stockholm, Stockholm County, Sweden, Europe
+Gothenburg, Västra Götaland County, Sweden, Europ
+Malmö, Skåne County, Sweden, Europ
+Uppsala, Uppsala County, Sweden, Europ
+Västerås, Västmanland County, Sweden, Europ
+Örebro, Örebro County, Sweden, Europ
+Linköping, Östergötland County, Sweden, Europ
+Helsingborg, Skåne County, Sweden, Europ
+Norrköping, Östergötland County, Sweden, Europ
+Jönköping, Jönköping County, Sweden, Europ
+Lund, Skåne County, Sweden, Europ
+Umeå, Västerbotten County, Sweden, Europ
+Gävle, Gävleborg County, Sweden, Europ
+Borås, Västra Götaland County, Sweden, Europ
+Södertälje, Stockholm County, Sweden, Europ
+Eskilstuna, Södermanland County, Sweden, Europ
+Karlstad, Värmland County, Sweden, Europ
+Trelleborg, Skåne County, Sweden, Europ
+Växjö, Kronoberg County, Sweden, Europ
+Luleå, Norrbotten County, Sweden, Europ
+Halmstad, Halland County, Sweden, Europ
+Sundsvall, Västernorrland County, Sweden, Europ
+Karlskrona, Blekinge County, Sweden, Europ
+Kristianstad, Skåne County, Sweden, Europ
+Kalmar, Kalmar County, Sweden, Europ
+Falun, Dalarna County, Sweden, Europ
+Skövde, Västra Götaland County, Sweden, Europ
+Östersund, Jämtland County, Sweden, Europ
+Boden, Norrbotten County, Sweden, Europ
+Varberg, Halland County, Sweden, Europ

@@ -1,0 +1,102 @@
+entities:
+  - name: checkout        
+    activities:
+      - name: started
+        tracked_states:
+          - name: cart
+        transitions:
+          - activity: viewed
+            entity: list
+            factor: 0.03
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.07
+            purge_states:
+              - name: product
+          - activity: shipping_added
+            entity: checkout
+            factor: 0.6
+            purge_states:
+              - name: shipping_method
+          - activity: leave
+            entity: system
+            factor: 0.09
+      - name: shipping_added
+        init_states:
+          - name: shipping_method
+            type: if_not_exist
+        tracked_states:
+          - name: shipping_method
+          - name: cart
+        transitions:
+          - activity: viewed
+            entity: list
+            factor: 0.1
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.3
+            purge_states:
+              - name: product
+          - activity: payment_added
+            entity: checkout
+            factor: 0.3
+            purge_states:
+              - name: payment_type
+          - activity: leave
+            entity: system
+            factor: 0.08
+      - name: payment_added
+        init_states:
+          - name: payment_type
+            type: if_not_exist
+        tracked_states:
+          - name: payment_type
+          - name: shipping_method
+          - name: cart
+        transitions:
+          - activity: viewed
+            entity: list
+            factor: 0.01
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.01
+            purge_states:
+              - name: product
+          - activity: submitted
+            entity: order
+            factor: 0.5
+          - activity: promocode_added
+            entity: checkout
+            factor: 0.4
+            purge_states:
+              - name: promo_code
+          - activity: leave
+            entity: system
+            factor: 0.06
+      - name: promocode_added
+        init_states:
+          - name: promo_code
+            type: if_not_exist
+        tracked_states:
+          - name: promo_code
+          - name: payment_type
+          - name: shipping_method
+          - name: cart
+        transitions:
+          - activity: submitted
+            entity: order
+            factor: 0.9
+          - activity: leave
+            entity: system
+            factor: 0.1
+            
+      

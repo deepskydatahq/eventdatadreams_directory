@@ -1,0 +1,148 @@
+entities:
+  - name: subscription
+            
+    activities:
+      - name: created
+        init_states:
+          - name: subscription
+            type: if_not_exist
+          - name: subscription_id
+            type: key_random
+            key: subscription_id
+            context: subscription
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: renewed
+            entity: subscription
+            factor: 0.7
+            delay: 2592000
+          - activity: expanded
+            entity: subscription
+            factor: 0.2
+            delay: 2592000
+          - activity: contracted
+            entity: subscription
+            factor: 0.1
+            delay: 2592000
+          - activity: cancelled
+            entity: subscription
+            factor: 0.2
+            delay: 964800
+          
+      - name: renewed
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: renewed
+            entity: subscription
+            factor: 0.6
+            delay: 2592000
+          - activity: expanded
+            entity: subscription
+            factor: 0.2
+            delay: 2592000
+          - activity: contracted
+            entity: subscription
+            factor: 0.1
+            delay: 2592000
+          - activity: cancelled
+            entity: subscription
+            factor: 0.2
+            delay: 964800
+
+      - name: expanded
+        init_states:
+          - name: subscription
+            type: increase_key
+            key: plan_amount
+            value: 1.3
+            variance: 0.2
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: renewed
+            entity: subscription
+            factor: 0.7
+            delay: 2592000
+          - activity: expanded
+            entity: subscription
+            factor: 0.2
+            delay: 2592000
+          - activity: contracted
+            entity: subscription
+            factor: 0.1
+            delay: 2592000
+          - activity: cancelled
+            entity: subscription
+            factor: 0.2
+            delay: 964800      
+      
+      - name: contracted
+        init_states:
+          - name: subscription
+            type: decrease_key
+            key: plan_amount
+            value: 0.8
+            variance: 0.1
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: renewed
+            entity: subscription
+            factor: 0.7
+            delay: 2592000
+          - activity: expanded
+            entity: subscription
+            factor: 0.2
+            delay: 2592000
+          - activity: contracted
+            entity: subscription
+            factor: 0.1
+            delay: 2592000
+          - activity: cancelled
+            entity: subscription
+            factor: 0.2
+            delay: 964800
+      
+      - name: cancelled
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: renewed
+            entity: subscription
+            factor: 0.1
+            delay: 2592000
+          - activity: ended
+            entity: subscription
+            factor: 0.9
+            delay: 964800
+      
+      - name: ended
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: leave
+            entity: system
+            factor: 1
+      
+      - name: trial_started
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: trial_ended
+            entity: subscription
+            factor: 0.8
+            delay: 1209600
+          - activity: created
+            entity: subscription
+            factor: 0.2
+            delay: 1209600
+      
+      - name: trial_ended
+        tracked_states:
+          - name: subscription
+        transitions:
+          - activity: leave
+            entity: system
+            factor: 1

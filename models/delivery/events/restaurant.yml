@@ -1,0 +1,47 @@
+entities:
+  - name: restaurant
+            
+    activities:
+      - name: clicked
+        init_states:
+          - name: restaurant
+            type: if_not_exist
+        tracked_states:
+          - name: restaurant
+        transitions:
+          - activity: viewed
+            entity: restaurant
+            factor: 0.9
+          - activity: leave
+            entity: system
+            factor: 0.1
+      
+      - name: viewed
+        init_states:
+          - name: restaurant
+            type: if_not_exist
+        tracked_states:
+          - name: restaurant
+        transitions:
+          - activity: viewed
+            entity: restaurant
+            factor: 0.2
+            purge_states:
+              - name: restaurant
+          - activity: clicked
+            entity: meal
+            factor: 0.7
+          - activity: submitted
+            entity: search
+            factor: 0.3
+          - activity: leave
+            entity: system
+            factor: 0.2
+      
+      - name: rated
+        tracked_states:
+          - name: restaurant
+        transitions:
+          - activity: leave
+            entity: system
+            factor: 1

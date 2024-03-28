@@ -1,0 +1,38 @@
+{
+    "name": "whiteboard",
+    "end_date": "2024-03-15",
+    "days_going_back": 5,
+    "persist_users": "true",
+    "user_table": "subs_01",
+    "randomizer": 0.1,
+    "models_path": "models",
+    "schema_folder": "whiteboard",
+    "growth": "1.1",
+    "sessions_per_day": 20,
+    "new_user_probability": 0.5,
+    "destinations": [
+      {
+        "name": "mixpanel",
+        "type": "mixpanel",
+        "token": "",
+        "data_plane_url":"us",
+        "api_secret": ""
+      }
+    ],
+    "entries": [
+      {
+        "entity": "account",
+        "activity": "created",
+        "propability": 0.2
+      },
+      {
+        "entity": "board",
+        "activity": "viewed",
+        "propability": 0.8
+      }
+    ],
+    "time_between_events_s": {
+      "min": "3",
+      "max": "30"
+    }
+  }

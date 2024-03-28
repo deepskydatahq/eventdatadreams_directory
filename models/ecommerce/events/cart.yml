@@ -1,0 +1,34 @@
+entities:
+  - name: cart
+    
+    activities:
+      - name: viewed
+        tracked_states:
+          - name: cart_products
+        
+        transitions:
+          - activity: viewed
+            entity: list
+            factor: 0.2
+            purge_states:
+              - name: product
+              - name: list
+          - activity: details_viewed
+            entity: product
+            factor: 0.3
+            purge_states:
+              - name: product
+          - activity: started
+            entity: checkout
+            factor: 0.5
+          - activity: created
+            entity: account
+            factor: 0.1
+          - activity: leave
+            entity: system
+            factor: 0.09
+      
+        
+      
+            
+      

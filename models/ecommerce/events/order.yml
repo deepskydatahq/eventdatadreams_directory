@@ -1,0 +1,53 @@
+entities:
+  - name: checkout  
+    activities:
+      - name: submitted
+        init_states:
+          - name: order_id
+            type: key_random
+            key: order_id
+            context: order
+          - name: revenue
+            type: calculate
+            context: order
+            key: revenue
+            formula: 
+              type: sum
+              source_context: cart
+              source_key: cart_products
+              source_sub_key: product_price
+        tracked_states:
+          - name: order
+          - name: cart
+          - name: shipping_method
+          - name: payment_method
+        transitions:
+          - activity: returned
+            entity: order
+            factor: 0.1
+            delay: 5760
+          - activity: viewed
+            entity: page
+            factor: 0.3
+            purge_states:
+              - name: page_path
+              - name: order
+              - name: product
+              - name: cart_products
+          - activity: leave
+            entity: system
+            factor: 0.8
+      - name: returned
+        init_states:
+          - name: order
+            type: if_not_exist
+        tracked_states:
+          - name: order
+        transitions:
+          - activity: leave
+            entity: system
+            factor: 1
+      
+      
+            
+      

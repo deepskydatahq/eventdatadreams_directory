@@ -1,0 +1,31 @@
+{
+    "name": "subscription",
+    "end_date": "2024-03-17",
+    "days_going_back": 600,
+    "persist_users": "true",
+    "user_table": "subs_01",
+    "randomizer": 0.1,
+    "models_path": "models",
+    "schema_folder": "subscription",
+    "growth": "1.1",
+    "sessions_per_day": 100,
+    "new_user_probability": 1,
+    "destinations": [
+      {
+        "name": "json",
+        "type": "jsonfile",
+        "file_name": "subs.json"
+      }
+    ],
+    "entries": [
+      {
+        "entity": "subscription",
+        "activity": "created",
+        "propability": 1
+      }
+    ],
+    "time_between_events_s": {
+      "min": "3",
+      "max": "30"
+    }
+  }

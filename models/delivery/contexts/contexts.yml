@@ -1,0 +1,38 @@
+contexts:
+  - name: session
+    key: session
+    type: merge
+    rows: 1000
+    sources:
+      - name: session_browser
+      - name: session_platforms
+      - name: session_utm_campaigns
+      - name: session_utm_sources
+  
+  - name: user
+    key: user
+    type: merge
+    rows: 1000
+    sources:
+      - name: user_location
+  
+  - name: restaurant
+    key: restaurant
+    type: merge
+    rows: 1000
+    sources:
+      - name: restaurants
+
+  - name: meal
+    key: meal
+    type: merge
+    rows: 1000
+    sources:
+      - name: meals
+  
+  - name: search
+    key: search
+    type: merge
+    rows: 1000
+    sources:
+      - name: restaurant_search

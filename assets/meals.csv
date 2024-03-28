@@ -1,0 +1,117 @@
+meal_name, meal_price, meal_kitchen, meal_avg_rating, meal_num_rating, meal_diet
+Chicken Tikka Masala, 15.99, Indian Cuisine, 4.6, 234, Non-Vegetarian
+Margherita Pizza, 12.99, Italian Cuisine, 4.5, 289, Vegetarian
+General Tso's Chicken, 14.99, Chinese Cuisine, 4.4, 312, Non-Vegetarian
+Coq au Vin, 18.99, French Cuisine, 4.8, 423, Non-Vegetarian
+BBQ Ribs Platter, 22.99, American Cuisine, 4.7, 365, Non-Vegetarian
+Sushi Deluxe, 24.99, Japanese Cuisine, 4.6, 387, Non-Vegetarian
+Moussaka, 16.99, Mediterranean Cuisine, 4.3, 256, Non-Vegetarian
+Pad Thai, 13.99, Thai Cuisine, 4.5, 328, Vegetarian
+Burrito Bowl, 11.99, Mexican Cuisine, 4.4, 289, Non-Vegetarian
+Caprese Salad, 9.99, Italian Cuisine, 4.2, 198, Vegetarian
+Kung Pao Tofu, 12.99, Chinese Cuisine, 4.3, 312, Vegetarian
+Croque Monsieur, 14.99, French Cuisine, 4.6, 354, Non-Vegetarian
+Grilled Chicken Caesar Salad, 13.99, American Cuisine, 4.5, 287, Non-Vegetarian
+California Roll, 10.99, Japanese Cuisine, 4.4, 256, Non-Vegetarian
+Falafel Wrap, 11.99, Mediterranean Cuisine, 4.2, 221, Vegetarian
+Green Curry, 15.99, Thai Cuisine, 4.5, 312, Vegetarian
+Tacos al Pastor, 12.99, Mexican Cuisine, 4.4, 289, Non-Vegetarian
+Lasagna, 16.99, Italian Cuisine, 4.3, 265, Non-Vegetarian
+Beef and Broccoli, 17.99, Chinese Cuisine, 4.4, 298, Non-Vegetarian
+Duck Confit, 19.99, French Cuisine, 4.7, 398, Non-Vegetarian
+New York Strip Steak, 26.99, American Cuisine, 4.8, 452, Non-Vegetarian
+Tempura Udon, 15.99, Japanese Cuisine, 4.6, 387, Non-Vegetarian
+Greek Salad, 11.99, Mediterranean Cuisine, 4.1, 189, Vegetarian
+Tom Yum Soup, 9.99, Thai Cuisine, 4.4, 276, Vegetarian
+Enchiladas, 13.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Spaghetti Carbonara, 14.99, Italian Cuisine, 4.5, 312, Non-Vegetarian
+Sweet and Sour Pork, 16.99, Chinese Cuisine, 4.3, 278, Non-Vegetarian
+Bouillabaisse, 21.99, French Cuisine, 4.7, 432, Non-Vegetarian
+Burger and Fries, 12.99, American Cuisine, 4.6, 387, Non-Vegetarian
+Tempura Sushi Roll, 11.99, Japanese Cuisine, 4.4, 289, Non-Vegetarian
+Hummus Platter, 10.99, Mediterranean Cuisine, 4.2, 221, Vegetarian
+Green Curry with Chicken, 16.99, Thai Cuisine, 4.5, 312, Non-Vegetarian
+Nachos, 13.99, Mexican Cuisine, 4.4, 289, Non-Vegetarian
+Chicken Parmesan, 15.99, Italian Cuisine, 4.3, 265, Non-Vegetarian
+Vegetable Lo Mein, 12.99, Chinese Cuisine, 4.2, 287, Vegetarian
+Ratatouille, 14.99, French Cuisine, 4.6, 354, Vegetarian
+Cobb Salad, 13.99, American Cuisine, 4.5, 287, Non-Vegetarian
+Sashimi Platter, 25.99, Japanese Cuisine, 4.8, 498, Non-Vegetarian
+Tabbouleh, 9.99, Mediterranean Cuisine, 4.1, 189, Vegetarian
+Massaman Curry, 15.99, Thai Cuisine, 4.4, 276, Vegetarian
+Tamales, 11.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Fettuccine Alfredo, 14.99, Italian Cuisine, 4.5, 312, Vegetarian
+Egg Drop Soup, 8.99, Chinese Cuisine, 4.1, 233, Vegetarian
+Escargot, 18.99, French Cuisine, 4.7, 432, Non-Vegetarian
+Buffalo Wings, 12.99, American Cuisine, 4.6, 387, Non-Vegetarian
+California Roll, 10.99, Japanese Cuisine, 4.4, 289, Non-Vegetarian
+Falafel Platter, 13.99, Mediterranean Cuisine, 4.2, 221, Vegetarian
+Yellow Curry, 15.99, Thai Cuisine, 4.5, 312, Vegetarian
+Burrito Supreme, 12.99, Mexican Cuisine, 4.4, 289, Non-Vegetarian
+Vegetarian Pizza, 14.99, Italian Cuisine, 4.3, 265, Vegetarian
+Orange Chicken, 16.99, Chinese Cuisine, 4.4, 298, Non-Vegetarian
+Escargot, 18.99, French Cuisine, 4.7, 432, Non-Vegetarian
+BBQ Pulled Pork Sandwich, 13.99, American Cuisine, 4.6, 387, Non-Vegetarian
+Dragon Roll, 22.99, Japanese Cuisine, 4.8, 512, Non-Vegetarian
+Dolma, 11.99, Mediterranean Cuisine, 4.1, 189, Vegetarian
+Tom Kha Gai, 10.99, Thai Cuisine, 4.4, 276, Vegetarian
+Tacos de Carnitas, 12.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Pasta Primavera, 14.99, Italian Cuisine, 4.5, 312, Vegetarian
+Butter Chicken, 16.99, Indian Cuisine, 4.6, 234, Non-Vegetarian
+Ravioli alla Vodka, 17.99, Italian Cuisine, 4.5, 289, Vegetarian
+Shrimp Fried Rice, 13.99, Chinese Cuisine, 4.4, 312, Non-Vegetarian
+Boeuf Bourguignon, 19.99, French Cuisine, 4.8, 423, Non-Vegetarian
+Pulled Pork Platter, 20.99, American Cuisine, 4.7, 365, Non-Vegetarian
+Tempura Bento Box, 23.99, Japanese Cuisine, 4.6, 387, Non-Vegetarian
+Falafel Plate, 14.99, Mediterranean Cuisine, 4.3, 256, Vegetarian
+Vegetable Pad See Ew, 12.99, Thai Cuisine, 4.5, 328, Vegetarian
+Chimichanga, 14.99, Mexican Cuisine, 4.4, 289, Non-Vegetarian
+Vegetarian Lasagna, 15.99, Italian Cuisine, 4.2, 198, Vegetarian
+Szechuan Tofu, 13.99, Chinese Cuisine, 4.3, 312, Vegetarian
+Croque Madame, 15.99, French Cuisine, 4.6, 354, Non-Vegetarian
+Cobb Wrap, 12.99, American Cuisine, 4.5, 287, Non-Vegetarian
+California Hand Roll, 11.99, Japanese Cuisine, 4.4, 256, Non-Vegetarian
+Vegetarian Platter, 13.99, Mediterranean Cuisine, 4.2, 221, Vegetarian
+Yellow Curry with Tofu, 14.99, Thai Cuisine, 4.5, 312, Vegetarian
+Vegetable Quesadilla, 13.99, Mexican Cuisine, 4.4, 289, Vegetarian
+Eggplant Parmesan, 15.99, Italian Cuisine, 4.3, 265, Vegetarian
+Mongolian Beef, 18.99, Chinese Cuisine, 4.4, 298, Non-Vegetarian
+Duck a l'Orange, 22.99, French Cuisine, 4.7, 398, Non-Vegetarian
+Grilled Salmon, 24.99, American Cuisine, 4.8, 452, Non-Vegetarian
+Soba Noodle Bowl, 15.99, Japanese Cuisine, 4.6, 387, Non-Vegetarian
+Greek Gyro, 11.99, Mediterranean Cuisine, 4.1, 189, Non-Vegetarian
+Panang Curry, 13.99, Thai Cuisine, 4.4, 276, Non-Vegetarian
+Taco Salad, 12.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Penne alla Vodka, 14.99, Italian Cuisine, 4.5, 312, Vegetarian
+Sweet and Sour Tofu, 15.99, Chinese Cuisine, 4.3, 278, Vegetarian
+Foie Gras, 26.99, French Cuisine, 4.7, 432, Non-Vegetarian
+Chicken Caesar Wrap, 13.99, American Cuisine, 4.6, 387, Non-Vegetarian
+Dragon Roll, 22.99, Japanese Cuisine, 4.8, 498, Non-Vegetarian
+Greek Moussaka, 16.99, Mediterranean Cuisine, 4.3, 256, Non-Vegetarian
+Vegetable Tom Yum Soup, 10.99, Thai Cuisine, 4.4, 276, Vegetarian
+Carne Asada Tacos, 13.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Pesto Pasta, 14.99, Italian Cuisine, 4.5, 312, Vegetarian
+Stir-fried Vegetables, 12.99, Chinese Cuisine, 4.2, 287, Vegetarian
+Quiche Lorraine, 15.99, French Cuisine, 4.6, 354, Non-Vegetarian
+Turkey Club Sandwich, 13.99, American Cuisine, 4.5, 287, Non-Vegetarian
+Sushi Sashimi Combo, 25.99, Japanese Cuisine, 4.8, 512, Non-Vegetarian
+Baba Ganoush, 9.99, Mediterranean Cuisine, 4.1, 189, Vegetarian
+Vegetable Green Curry, 15.99, Thai Cuisine, 4.4, 276, Vegetarian
+Chile Relleno, 12.99, Mexican Cuisine, 4.3, 265, Vegetarian
+Pasta Primavera, 14.99, Italian Cuisine, 4.5, 312, Vegetarian
+Beef and Broccoli, 17.99, Chinese Cuisine, 4.4, 298, Non-Vegetarian
+Duck Confit, 19.99, French Cuisine, 4.7, 398, Non-Vegetarian
+New York Strip Steak, 26.99, American Cuisine, 4.8, 452, Non-Vegetarian
+Tempura Udon, 15.99, Japanese Cuisine, 4.6, 387, Non-Vegetarian
+Greek Salad, 11.99, Mediterranean Cuisine, 4.1, 189, Vegetarian
+Tom Yum Soup, 9.99, Thai Cuisine, 4.4, 276, Vegetarian
+Enchiladas, 13.99, Mexican Cuisine, 4.3, 265, Non-Vegetarian
+Spaghetti Carbonara, 14.99, Italian Cuisine, 4.5, 312, Non-Vegetarian
+Sweet and Sour Pork, 16.99, Chinese Cuisine, 4.3, 278, Non-Vegetarian
+Bouillabaisse, 21.99, French Cuisine, 4.7, 432, Non-Vegetarian
+Burger and Fries, 12.99, American Cuisine, 4.6, 387, Non-Vegetarian
+Tempura Sushi Roll, 11.99, Japanese Cuisine, 4.4, 289, Non-Vegetarian
+Hummus Platter, 10.99, Mediterranean Cuisine, 4.2, 221, Vegetarian
+Green Curry with Chicken, 16.99, Thai Cuisine, 4.5, 312, Non-Vegetarian
+Nachos, 13.99, Mexican Cuisine, 4.4, 289, Non-Veget
+
